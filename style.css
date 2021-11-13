@@ -1,12 +1,4 @@
-@font-face {
-    font-family: "Montserrat SemiBold";
-    src: url(fonts/Montserrat-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: "Montserrat Regular";
-    src: url(fonts/Montserrat-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 
 :root {
     --bgcolor: linear-gradient(180deg, rgb(132, 141, 141) 0%, rgba(181,133,80,1) 100%);
@@ -82,7 +74,7 @@ ul {
 a {
     text-decoration: none;
     color: var(--accent);
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     transition: ease-in-out 0.2s;
     position: relative;
@@ -183,7 +175,7 @@ a:hover {
 }
 
 #description p {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     color: var(--accent);
     font-size: 14px;
 }
@@ -251,7 +243,7 @@ a:hover {
 
 #about-me-description p {
     width: 630px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     color: rgb(240, 231, 231);
     text-align: center;
 }
